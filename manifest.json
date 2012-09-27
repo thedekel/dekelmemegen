@@ -1,0 +1,26 @@
+{
+  "name": "BreadChrombs",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "An extension aimed at making history management as easy as following bread crumbs",
+  "default_locale": "en",
+
+  "background": {
+    "page": "background.html"
+  },
+  "chrome_url_overrides": {
+    "history": "chrombsHistory.html"
+  },
+  "content_scripts": {
+    "matches": ["*://*/*"],
+    "js": ["chrombsContent.js"]
+  },
+  "omnibox": { "keyword": "chromb" },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "bookmarks",
+    "*://*/*",
+    "unlimitedStorage"
+  ]
+}
