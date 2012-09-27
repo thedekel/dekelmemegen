@@ -1,0 +1,1 @@
+BreadChrombs is a Chrome extension that attempts to intelligently manage your browser history and the state of your tabs when you close them and draw conclusions that make it simple to close your tabs, knowing full-well that you'll always be able to retrace your steps.
