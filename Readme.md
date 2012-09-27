@@ -9,7 +9,7 @@ full-well that you'll always be able to retrace your steps.
 
 To install, simply download the repo (or a personal fork of it if you'd
 also like to make changes) and then load it as an "unpacked extension"
-from chrome's [extensions page](chrome://extensions). You will need
+from chrome's **extensions page:**`chrome://extensions`. You will need
 to turn on "Developer mode" on the same page to see this option.
 
 In the future, the extension will be packed and available to download.
