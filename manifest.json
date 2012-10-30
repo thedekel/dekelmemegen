@@ -16,8 +16,11 @@
   "omnibox": { "keyword": "chromb" },
   "options_page": "options.html",
   "permissions": [
+    "tabs",
     "*://*/*",
     "http://*/",
-    "contextMenus"
+    "contextMenus",
+    "clipboardRead",
+    "clipboardWrite"
   ]
 }
